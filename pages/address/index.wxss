@@ -1,0 +1,88 @@
+.address{
+	padding: 0 20rpx;
+}
+.address .city{
+	font-size: 32rpx;
+	font-weight: bold;
+	padding: 0 10rpx 0 20rpx;
+	line-height: 50rpx;
+}
+.address .arrow{
+	width:0;
+	height:0;
+	border-right:16rpx solid transparent;
+	border-left:16rpx solid transparent;
+	border-top:16rpx solid #333;
+	vertical-align: middle;
+	margin-top: 20rpx;
+}
+.address .title .fr{
+	position: relative;
+	width: 520rpx;
+	height: 50rpx;
+	line-height: 50rpx;
+	border-radius: 20rpx;
+	background-color: #f2f2f2;
+}
+
+.address .title .fr button{
+	float: left;
+	width: 60rpx;
+	height: 40rpx;
+	margin-top: 5rpx;
+	background: none;
+}
+.address .title .fr button::after{
+	border: none;
+}
+.address .title .fr image{
+	position: absolute;
+	top: 7rpx;
+	left: 16rpx;
+	width: 28rpx;
+	height: 36rpx;
+}
+.address .title .fr input{
+	font-size: 24rpx;
+	padding: 0 10rpx;
+}
+
+.current{
+	margin: 30rpx auto;
+}
+.common .tit{
+	font-size: 24rpx;
+	color: #b2b2b2;
+	line-height: 60rpx;
+}
+.common .con .up .fl{
+	font-size: 30rpx;
+	color: #333;
+	font-weight: bold;
+	line-height: 60rpx;
+}
+.common .con .up .fr{
+	font-size: 24rpx;
+	color: #333;
+	font-weight: bold;
+	line-height: 60rpx;
+}
+.common .con .down view{
+	font-size: 24rpx;
+	color: #333;
+	font-weight: bold;
+	line-height: 36rpx;
+}
+.nomore{
+	color: #b2b2b2;
+	font-size: 24rpx;
+	text-align: center;
+	line-height: 60rpx;
+	margin: 20rpx auto;
+}
+.default{
+	width: 710rpx;
+	position: fixed;
+	bottom: 20rpx;
+	left: 20rpx;
+}

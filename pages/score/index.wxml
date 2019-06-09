@@ -1,0 +1,86 @@
+<!--pages/score/index.wxml-->
+<view class='score'>
+    <view class='addr fw'>
+        <view class='fl'>当前提货点为阳光小区</view>
+        <view class='fr'><navigator url=''>点击更换</navigator></view>
+    </view>
+
+    <view class='point'>温馨提示：本页面数据每天23:50更新一次</view>
+
+    <view class='time_wrap'>
+        <view class='time-date'>
+            <input placeholder='2019年3月' placeholder-class="placeholderStyle"></input>
+            <image src='../../images/score/date.png'></image>
+        </view>
+        <view class='nav_tit fw'>
+            <view>日报</view>
+            <view>周报</view>
+            <view class='on'>月报</view>
+        </view>
+        <view class='nav_con fw'>
+            <view class='fl'>
+                <view class='up'>总收款(元)</view>
+                <view class='cen'>￥<text>2357.64</text></view>
+                <view class='dow'>较上月增长23%</view>
+            </view>
+            <view class='fl'>
+                <view class='up'>总佣金(元)</view>
+                <view class='cen'>￥<text>2357.64</text></view>
+                <view class='dow'>共计255单</view>
+            </view>
+        </view>
+    </view>
+
+    <view class='chart'>
+        <view class='chart_tit'>月报交易趋势图</view>
+        <view class='chart_con'>
+            <view class='row'>
+                <view class='row_list fw'>
+                    <view class='fl'>5000</view>
+                    <view class='fr r_line'></view>
+                </view>
+                <view class='row_list fw'>
+                    <view class='fl'>4000</view>
+                    <view class='fr r_line'></view>
+                </view>
+                <view class='row_list fw'>
+                    <view class='fl'>3000</view>
+                    <view class='fr r_line'></view>
+                </view>
+                <view class='row_list fw'>
+                    <view class='fl'>2000</view>
+                    <view class='fr r_line'></view>
+                </view>
+                <view class='row_list fw'>
+                    <view class='fl'>1000</view>
+                    <view class='fr r_line'></view>
+                </view>
+            </view>
+            <view class='cos'>
+                <view class='cos_list'>
+                    <view>第一周</view>
+                    <view class='date'>3.1-3.7</view>
+                </view>
+                <view class='cos_list'>
+                    <view>第二周</view>
+                    <view class='date'>3.1-3.7</view>
+                </view>
+                <view class='cos_list'>
+                    <view>第三周</view>
+                    <view class='date'>3.1-3.7</view>
+                </view>
+                <view class='cos_list'>
+                    <view>第四周</view>
+                    <view class='date'>3.1-3.7</view>
+                </view>
+            </view>
+            <view class='line_wrap'>
+                <view class='txt'>￥4100.00</view>
+                <view class='txt'>255单</view>
+                <view class='cos_line'></view>
+            </view>
+            <image src='../../images/score/chart.png'></image>
+        </view>
+    </view>
+</view>
+

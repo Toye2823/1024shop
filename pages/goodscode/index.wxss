@@ -1,0 +1,174 @@
+/*弹窗*/
+.isRuleShow{
+    display: block;
+}
+.isRuleHide{
+    display: none;
+}
+.ruleZhezhao{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background-color:rgba(0, 0, 0, .5);
+    z-index: 2;
+    top: 0;
+    left: 0;
+}
+.ruleZhezhaoContent{
+    padding: 20rpx 0;
+    margin: 20% auto;
+    border-radius: 20rpx;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    position: relative;
+}
+.ruleZhezhaoText{
+	position: absolute;
+    width: 570rpx;
+    padding: 0 20rpx;
+}
+.ruleZhezhaoText .tit{
+	font-size: 24rpx;
+	white-space: nowrap;
+    color: #333;
+	font-weight: bold;
+	height: 64rpx;
+	line-height: 64rpx;
+    margin-top: 30rpx;
+    border-bottom: 1px solid #fafafa;
+    padding: 0 20rpx;
+}
+.ruleZhezhaoText .btn navigator{
+	width: 180rpx;
+	text-align: center;
+	margin: 16rpx auto;
+	height: 56rpx;
+	line-height: 56rpx;
+	background-color: #ff5050;
+	font-size: 30rpx;
+	border-radius: 20rpx;
+    color: #fff;
+}
+.ruleZhezhaoText .txt_wrap .fl .left1{
+	font-size: 26rpx;
+	height: 80rpx;
+	line-height: 80rpx;
+	text-align: center;
+}
+.ruleZhezhaoText .txt_wrap .fl .left2{
+	font-size: 20rpx;
+	text-align: center;
+}
+.ruleZhezhaoText .txt_wrap .fl .left1 text{
+	font-size: 60rpx;
+}
+.dialog_bg{
+	width: 610rpx;
+	height: 821rpx;
+}
+.ruleHide{
+    height: 70rpx!important;
+    width: 70rpx!important;
+    position: absolute;
+    top: 1000rpx;
+    left: 50%;
+	margin-left: -35rpx;
+}
+.rule{
+    display: block;
+    border: 1px solid #fff;
+    width: 100rpx;
+    text-align: center;
+    line-height: 60rpx;
+    color: #fff;
+    height: 60rpx;
+    font-size: 30rpx;
+    border-radius: 30rpx;
+    position: absolute;
+    top: 10%;
+    right: 5%;
+}
+.list{
+    border-bottom: 1px solid #fafafa;
+    padding: 10rpx;
+}
+.list .part1{
+    width: 100rpx;
+    height: 100rpx;
+    margin-right: 20rpx;
+}
+.list .part1 image{
+    width: 100%;
+    height: 100%;
+}
+.list .part2{
+    font-size: 20rpx;
+    color: #b2b2b2;
+    line-height: 30rpx;
+    padding-top: 6rpx;
+    width: 200rpx;
+}
+.list .part2 view:first-child{
+    font-size: 22rpx;
+    color: #333;
+}
+.list .part3{
+    width: 140rpx;
+    text-align: center;
+}
+.list .part3 image{
+    width: 42rpx;
+    height: 36rpx;
+    margin-top: 30rpx;
+}
+.list .part4{
+    width: 60rpx;
+    font-size: 24rpx;
+    text-align: center;
+    line-height: 30rpx;
+    margin-top: 6rpx;
+}
+.name,.tel{
+    font-size: 24rpx;
+    line-height: 40rpx;
+    height: 40rpx;
+    padding: 0 20rpx;
+}
+.info{
+    background-color: #fffeec;
+    font-size: 24rpx;
+    border-radius: 0 0 15rpx 15rpx;
+    padding: 20rpx;
+}
+.info .fr{
+    color: #ff5050;
+}
+.code .wrap{
+	width: 395rpx;
+	margin: 30rpx auto;
+	overflow: hidden;
+}
+.code .wrap input{
+	float: left;
+	width: 66rpx;
+	height: 66rpx;
+	line-height: 66rpx;
+	border: 1px solid #b3b3b3;
+	margin: 0 15rpx;
+	font-size: 32rpx;
+	color: #333;
+	font-weight: bold;
+	text-align: center;
+}
+.code .btn navigator{
+	width: 60%;
+	margin: 0 auto;
+	background-color: #ff5b4c;
+	font-size: 32rpx;
+	line-height: 62rpx;
+	height: 62rpx;
+	border-radius: 10rpx;
+	text-align: center;
+	color: #fff;
+}

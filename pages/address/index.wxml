@@ -1,0 +1,56 @@
+<view class="address">
+	<view class='title fw'>
+		<view class='fl fw'>
+			<view class='city fl'>杭州市</view>
+			<view class='arrow fl'></view>
+		</view>
+		<view class='fr'>
+			<button><image src='../../images/search.png'></image></button>
+			<input class="inputText" id="id_card" name="id_card" placeholder="输入小区名称搜索社区" type="text"></input>
+		</view>
+	</view>
+
+	<view class='common current'>
+		<view class='tit'>当前小区</view>
+		<view class='con'>
+			<view class='up fw'>
+				<view class='fl'>聚力小区</view>
+				<view class='fr'>李先生：138******87</view>
+			</view>
+			<view class='down fw'>
+				<view class='fl'>杭州市富阳区</view>
+				<view class='fr'>花园小区168幢爱心早餐店</view>
+			</view>
+		</view>
+	</view>
+
+	<view class='common hot'>
+		<view class='tit'>热门小区</view>
+		<view class='con'>
+			<view class='up fw'>
+				<view class='fl'>聚力小区</view>
+				<view class='fr'>李先生：138******87</view>
+			</view>
+			<view class='down fw'>
+				<view class='fl'>杭州市富阳区</view>
+				<view class='fr'>花园小区168幢爱心早餐店</view>
+			</view>
+		</view>
+	</view>
+
+	<view class='nomore'>没有更多了</view>
+
+	<view class='common default'>
+		<view class='con'>
+			<view class='up fw'>
+				<view class='fl'>公司直营配送</view>
+				<view class='fr'>沈先生：138******87</view>
+			</view>
+			<view class='down fw'>
+				<view class='fl'>所在小区没有团长的情况下请选择</view>
+				<view class='fr'>配送区域：富阳城区</view>
+			</view>
+		</view>
+	</view>
+
+</view>

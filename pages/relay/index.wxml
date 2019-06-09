@@ -1,0 +1,31 @@
+<!--pages/relay/index.wxml-->
+<view class='relay'>
+	<image class='bg' src='../../images/relay/relay_1.png'></image>
+	<view class='wrap'>
+		<view class='pic'>
+			<image src='../../images/relay/relay_2.png'></image>
+		</view>
+		<view class='tit'>富阳人自己的平台</view>
+
+		<view class='cont'>
+			<view class='tit-img'><image src='../../images/relay/relay_5.png'></image></view>
+			<view class='name'>九龙仓--王团长</view>
+			<view class='star'><image src='../../images/relay/relay_3.png'></image></view>
+			<view class='text'>
+				品不错清脆爽口，很棒采用人工除草，遵循自然规律生长，凉拌清脆爽口，鲜美芬芳，每天按需采摘，当天发货，确保蔬菜的新鲜，同时的体验，采用不同温度不同的包装，保证菜品到达您手中时的质....
+			</view>
+			<view class='fw'>
+				<view class='fl'>
+					<image src='../../images/relay/relay_8.png'></image>
+					<image src='../../images/relay/relay_4.png' class='play'></image>
+				</view>
+				<view class='fr'>
+					<image src='../../images/relay/relay_6.png'></image>
+					<image src='../../images/relay/relay_7.png'></image>
+				</view>
+			</view>
+		
+		</view>
+
+	</view>
+</view>

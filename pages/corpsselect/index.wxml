@@ -1,0 +1,5 @@
+<!--pages/corpsselect/index.wxml-->
+<view class='wrap'>
+    <view><navigator url=''>我要做推广团长</navigator></view>
+    <view><navigator url=''>我要做发货团长</navigator></view>
+</view>

@@ -1,0 +1,46 @@
+.sort{
+    padding: 14px 20rpx;
+}
+.sort .tit{
+    background-color: #fff;
+    border-radius: 20rpx 20rpx 0 0;
+    height: 68rpx;
+    line-height: 68rpx;
+    text-align: center;
+    padding-top: 20rpx;
+}
+.sort .wrap{
+    overflow: hidden;
+    background-color: #fff;
+    border-radius: 0 0 20rpx 20rpx;
+    margin-bottom: 20rpx;
+    padding-bottom: 40rpx;
+}
+.sort .wrap .list{
+    float: left;
+    font-size: 26rpx;
+    height: 50rpx;
+    width: 140rpx;
+    line-height: 50rpx;
+    box-sizing: border-box;
+    border: 1px solid #bbb;
+    border-radius: 25rpx;
+    text-align: center;
+    margin: 20rpx 18rpx;
+    position: relative;
+}
+.sort .wrap .list .close{
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAADBElEQVRIia2WTUsbURSG30wcP/AbEg2OtGTEhdrlgKAr95cuW+kPaJeldNH+g9bf0FWhtOg22UnarkTcuLCioE6a2vjRBDExGnXMpLy3GZkkM5MKvjCZzMy9z5m895x7EqpWq/BTMpl8AOAZgDkAkwCiACwAvwFkAHwHsCiESPsxPAPUwO9VVX2iaVo4Go2ir68PHR0dsG0bl5eXOD8/Ry6XQzabtS3LWgTwVgjxq2WAZDL5WFGUT+Pj473xeBxtbW2+v5C6ublBOp3Gzs5Oybbt50KIL3UDGMA5EonEy1QqVSkUCtW7qlgsVlOplJ1IJF65mW740+XlZbtcLt8Z7ohzySDL4UqL6LmiKJszMzM9AwMDgZa00unpKVZWVmjXFNdEqY1/p+t6Ezyfz+Pi4iIQWalUcHx8LM8UGfF4vAfAAq/DhmE8VFX1g2EYIUVRbicSvr6+jv39fUQiEXR2dnou8NraGg4ODlAulzE0NCTvDw4OIpPJTG5vb38kcX54eFhpzJbu7m55ZooSUigUPOHhcBihUAjuX0+WpmmSzY+5WCzW9HZdXV2Ynp6Wud4YxA1nPTCdR0dH6+ZzDtkM8Ki/v9/TXxZXY5CTk5MmOA+vuWQzQIQV6id3EK7F6uqqTL8gOFVjRuWqsvyDxCCGYeDw8BDt7e0yFWmrH9wtBshfXV0FDqLnW1tbciE5lpZms9mmhXerxswxwObZ2VkgnJ4zM7jJ6bouU9IvuxwVi0V++8EAX1koreClUklaMjEx4ZtdbvE5gG8MsHh0dGQT5hbXpRHueO5eeNq2sbHR9GLcxslWhBA/Lcta2t3dbXoDWtEId+QEub6+xsjISN0zssgk2ynfN6ZpilgsdrsfMSWZKbzWNM3TQgaZnZ2tu8cMM02zRKa84dqu5+9xu55v6gf32HBeu5m+LVPX9d6xsTGoquppjyPLsrC3tydtsW37hRDis/t5UNNfqDV9xWn6zpbNemCeu5r+Ej3/r6bvEcj52zIF4N+GD/xhgTLPATBbTE8AgL9WReC0lE2RgwAAAABJRU5ErkJggg==");
+    width: 24rpx;
+    height: 24rpx;
+    background-size: 100%;
+    display: block;
+    position: absolute;
+    right: -6rpx;
+    top: -10rpx;
+}
+.note{
+    font-size: 18rpx;
+    color: #b2b2b2;
+    text-align: center;
+}

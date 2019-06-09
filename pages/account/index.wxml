@@ -1,0 +1,45 @@
+<view class='account'>
+    <view class='account_bg'>
+        <image src='../../images/account/account_1.png'></image>
+        <view class='position'>
+            <view class='up'>
+                <text>可用余额(元)</text>
+                <image src='../../images/account/account_5.png'></image>
+            </view>
+            <view class='center'>5455646216.66</view>
+            <view class='down fw'>
+                <view class='fl'>
+                    <view>账户余额(元)</view>
+                    <view>0.00</view>
+                </view>
+                <view class='fl'>
+                    <view>冻结金额(元)</view>
+                    <view>2165432164</view>
+                </view>
+            </view>
+        </view>
+    </view>
+
+    <view class='myaccount fw'>
+        <view class='fl'>
+            <navigator url=''>
+                <image src='../../images/account/account_2.png'></image>
+                <text>充值</text>
+            </navigator>
+        </view>
+        <view class='fl'>
+            <navigator url=''>
+                <image src='../../images/account/account_4.png'></image>
+                <text>提现</text>
+            </navigator>
+        </view>
+    </view>
+    
+    <view class='runwater fw'>
+        <navigator url=''>
+            <view class='fl'>账户流水</view>
+        <image class='fr' src='../../images/account/account_3.png'></image>
+        </navigator>
+    </view>
+
+</view>

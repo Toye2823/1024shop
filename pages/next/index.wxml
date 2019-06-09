@@ -1,0 +1,135 @@
+<view class='share'>
+    <navigator url=''><image src='../../images/share.png'></image></navigator>
+</view>
+
+<view class='page'>
+  <view class='position'>
+    <view class='left'>
+      <view class='addr'><image src='../../images/index_1.png'></image></view>
+      <view><text>某某小区</text></view>
+      <view class='arrow'><image src='../../images/index_2.png'></image></view>
+    </view>    
+	<view class='right'>
+      <view class='tit_pic fl'><image src='../../images/index_3.png'></image></view>
+      <view class='info fl'>刚成功抢购到*份六鳌蜜...</view>
+    </view>
+  </view>
+
+  <view class='content'>
+    <view class='hd_nav'>
+      <view class='nav_tit'>
+        <view class='tit_up'>正在抢购</view>
+        <view class='tit_dw'>每天23点开抢</view>
+      </view>
+      <view class='nav_tit on'>
+        <view class='tit_up'>下期预告</view>
+        <view class='tit_dw'>显示开抢</view></view>
+      <view class='nav_tit'>
+        <view class='tit_up'>特色商圈</view>
+        <view class='tit_dw'>异业联盟</view>
+      </view>
+    </view>
+
+    <view class='hd_con'>
+		  <view class='con3'>
+            <view class='time fw'>
+                <view class='fl'>下期预告，每天20:00更新，限时抢购</view>
+                <view class='fr'><text>09</text>:<text>20</text>:<text>20</text></view>
+            </view>
+		  	<view class='recom'>
+               <view class='on'><text>下期推荐</text></view>
+               <view><text>新鲜蔬菜</text></view>
+            </view>
+		  	<view class='list'>
+			  	<view class='fl'>
+				  	<image class='today' src='../../images/today.png'></image>
+				  	<image class='product' src='../../images/product3.png'></image>
+				</view>
+			  	<view class='fr'>
+					<view class='title'>农家新鲜青豌豆约450-50...</view>
+					<view class='bewrite'>清香细嫩，香甜可口</view>
+					<view class='stock fw'>
+						<text>已售6717件</text>
+					</view>
+					<view class='qxj'>抢先价</view>
+					<view class='price'>
+						<text class='new_price'>￥7.6</text>
+						<text class='old_price'>￥9</text>
+						<navigator url=''>即将开始</navigator>
+					</view>
+                    <image class='quan' src='../../images/quan.png'></image>
+				</view>
+			</view>
+
+			<view class='list'>
+			  	<view class='fl'>
+				  	<image class='today' src='../../images/tomor.png'></image>
+				  	<image class='product' src='../../images/product3.png'></image>
+				</view>
+			  	<view class='fr'>
+					<view class='title'>农家新鲜青豌豆约450-50...</view>
+					<view class='bewrite'>清香细嫩，香甜可口</view>
+					<view class='stock fw'>
+						<text>已售6717件</text>
+					</view>
+					<view class='qxj'>抢先价</view>
+					<view class='price'>
+						<text class='new_price'>￥7.6</text>
+						<text class='old_price'>￥9</text>
+						<navigator class='over_btn' url=''>即将开始</navigator>
+					</view>
+				</view>
+			</view>
+
+			<view class='fresh_vege'>
+		  	  <image src='../../images/fresh.png'></image>
+		  	</view>
+
+			<view class='list'>
+			  	<view class='fl'>
+				  	<image class='today' src='../../images/today.png'></image>
+				  	<image class='product' src='../../images/product3.png'></image>
+				</view>
+			  	<view class='fr'>
+					<view class='title'>农家新鲜青豌豆约450-50...</view>
+					<view class='bewrite'>清香细嫩，香甜可口</view>
+					<view class='stock fw'>
+						<text>已售6717件</text>
+					</view>
+					<view class='qxj'>抢先价</view>
+					<view class='price'>
+						<text class='new_price'>￥7.6</text>
+						<text class='old_price'>￥9</text>
+						<navigator url=''>即将开始</navigator>
+					</view>
+				</view>
+			</view>
+
+			<view class='list'>
+			  	<view class='fl'>
+				  	<image class='today' src='../../images/today.png'></image>
+				  	<image class='product' src='../../images/product3.png'></image>
+				</view>
+			  	<view class='fr'>
+					<view class='title'>农家新鲜青豌豆约450-50...</view>
+					<view class='bewrite'>清香细嫩，香甜可口</view>
+					<view class='stock fw'>
+						<text>已售6717件</text>
+					</view>
+					<view class='qxj'>抢先价</view>
+					<view class='price'>
+						<text class='new_price'>￥7.6</text>
+						<text class='old_price'>￥9</text>
+						<navigator url=''>即将开始</navigator>
+					</view>
+				</view>
+			</view>
+
+		  </view>
+    </view>
+  </view>
+</view>
+
+<view class='dialog'>
+
+</view>

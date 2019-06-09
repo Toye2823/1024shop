@@ -1,0 +1,50 @@
+/**index.wxss**/
+@import "../../app.wxss";
+
+.fl{ float: left;}
+.fr{ float: right;}
+.fw{ overflow: hidden;}
+.share{ position: fixed;right: 30rpx;top: 20%;}
+.share image{ width: 80rpx;height: 80rpx;}
+
+.old_price{ text-decoration:line-through}
+.position{ overflow: hidden;}
+.left view,.left{ float: left;height: 48rpx;line-height: 48rpx;}
+.left .addr image{ width: 22rpx;height: 26rpx;margin-top: 14rpx;}
+.left text{ font-size: 32rpx;line-height: 48rpx;padding: 10rpx;}
+.left .arrow image{ width: 34rpx;height: 17rpx;padding-bottom: 2rpx;}
+.right{ float: right;overflow: hidden; background-color: #b3b3b3;width: 334rpx;height: 48rpx;line-height: 48rpx;border-radius: 24rpx;}
+.right .tit_pic image{ width: 39rpx;height: 39rpx;margin: 4rpx 6rpx;}
+.right .info{ font-size: 22rpx;color: #fff;line-height: 48rpx;height: 48rpx;}
+.hd_nav{overflow: hidden; border-bottom: 4px solid #f2e75d;margin-top: 22rpx;}
+.hd_nav .nav_tit{ float: left;width: 28%;height: 80rpx;text-align: center;background-color: #f2f2f2;border-radius: 20rpx 20rpx 0 0;}
+.hd_nav .nav_tit.on{ background-color: #fff357;}
+.hd_nav .nav_tit:not(:first-child){margin-left: 8%;}
+.hd_nav .tit_up{ font-size: 22rpx;line-height: 30rpx;margin-top: 10rpx;}
+.hd_nav .tit_dw{ font-size: 18rpx;line-height: 30rpx;}
+
+
+.con3 .time{ background-color: #fffde4;height: 60rpx;line-height: 60rpx;font-size: 20rpx;}
+.con3 .time .fl{font-size: 20rpx;font-weight: bold;color: #f3594b;}
+.con3 .time .fr{ margin-right: 10rpx;}
+.con3 .time .fr text{ background-color: #333333;color: #fff;padding: 4rpx 6rpx;}
+.con3 .recom{ text-align: center;overflow: hidden;margin-bottom: 20rpx;background-color: #fff;}
+.con3 .recom view{ float: left;width: 50%;height: 80rpx;line-height: 80rpx;font-weight: bold;color: #b2b2b2;}
+.con3 .recom view.on{ color: #333333;}
+.con3 .recom view.on text{ border-bottom: 3px solid #f2e75d;padding-bottom: 12rpx;}
+.con3 .list{ overflow: hidden;padding: 20rpx 0;background-color: #ffffff;margin-bottom: 20rpx;}
+.con3 .list .fl{ position: relative;margin-top: 20rpx;}
+.con3 .list .fl .today{ width: 61rpx;height: 68rpx;position: absolute;top: 0;left: 0;}
+.con3 .list .fl .product{ width: 250rpx;height: 250rpx;}
+.con3 .list .fr{ padding: 20rpx 0;position: relative}
+.con3 .list .fr .quan{width: 103rpx;height: 116rpx;position: absolute;right: 0;top: 90rpx;}
+.con3 .list .fr .title{ font-size: 30rpx;font-weight: bold;}
+.con3 .list .fr .bewrite{ font-size: 24rpx;color: #999;line-height: 56rpx;}
+.con3 .list .fr .stock text{float: left;border: 1px solid #ff4a3a;font-size: 20rpx;padding: 4rpx 10rpx;margin-right: 20rpx;border-radius: 15rpx;color: #ff4a3a;}
+.con3 .list .fr .stock text{ border-color: #999;color: #999;}
+.con3 .list .fr .qxj{ color: #ff4a3a;font-size: 20rpx;line-height: 30rpx;margin-top: 30rpx;}
+.con3 .list .fr .new_price{ font-size: 36rpx;color: #ff4a3a;}
+.con3 .list .fr .old_price{ font-size: 24rpx;color: #b2b2b2;}
+.con3 .list .fr navigator{ float: right;font-size: 30rpx;background-color: #ff4a3a;padding: 0 16rpx;color: #fff;border-radius: 25rpx;line-height: 50rpx;margin-right: 20rpx;}
+.fresh_vege image{ width: 100%;height: 230rpx;}
+

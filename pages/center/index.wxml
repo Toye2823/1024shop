@@ -1,0 +1,96 @@
+<!--pages/center/index.wxml-->
+<view class='center'>
+    <view class='center_bg'>
+        <image class='bg' src='../../images/center/center_bg.png'></image>
+    </view>
+
+    <view class='info fw'>
+        <view class='tit_img fl'>
+            <image src='../../images/center/tit_img.png'></image>
+        </view>
+        <view class='fl'>
+            <view class='name'>
+                <view class='nickname'>
+                    <text>碧落清影</text>
+                    <text>李女士</text>
+                </view>
+                <view class='id'>ID: 131425687</view>
+            </view>
+        </view>
+        <view class='money fr'>
+            可用： <text>234.56</text>元<image class='arrow' src='../../images/center/arrow_r_1.png'></image>
+        </view>
+    </view>
+    <view class='nav'>
+        <view class='nav_title fw'>
+            <view class='on'>常规商品</view>
+            <view>异业联盟</view>
+        </view>
+        <view class='nav_cont fw'>
+            <view class='list'>
+                <view><image src='../../images/center/center_icon_1.png'></image></view>
+                <view>待付款</view>
+            </view>
+            <view class='list'>
+                <view><image src='../../images/center/center_icon_2.png'></image></view>
+                <view>待发货</view>
+            </view> 
+            <view class='list'>
+                <view><image src='../../images/center/center_icon_3.png'></image></view>
+                <view>待取货</view>
+            </view> 
+            <view class='list'>
+                <view><image src='../../images/center/center_icon_4.png'></image></view>
+                <view>已完成</view>
+            </view> 
+            <view class='list'>
+                <view><image src='../../images/center/center_icon_5.png'></image></view>
+                <view>售后</view>
+            </view>            
+        </view>
+    </view>
+    <view class='code'>
+        <view class='up'><image src='../../images/center/code.png'></image>取货二维码</view>
+        <view class='mid'><image src='../../images/center/code2.png'></image></view>
+        <view class='down fw'>
+            <view class='bond fl'><image src='../../images/center/center_bond.png'></image>优惠券</view>
+            <view class='addr fl'><image src='../../images/center/center_addr.png'></image>收货地址</view>
+        </view>
+    </view>
+
+    <view class='table'>
+        <view class='tr fw'>
+            <view class='td icon'><image src='../../images/center/center_icon_6.png'></image></view>
+            <view class='td'>支付密码</view>
+            <view class='arrow fr'><image src='../../images/center/arrow_r_2.png'></image></view>
+        </view>
+        <view class='tr fw'>
+            <view class='td icon'><image src='../../images/center/center_icon_7.png'></image></view>
+            <view class='td'>推荐有奖</view>
+            <view class='arrow fr'><image src='../../images/center/arrow_r_2.png'></image></view>
+        </view>
+        <view class='tr fw'>
+            <view class='td icon'><image src='../../images/center/center_icon_8.png'></image></view>
+            <view class='td'>申请团长</view>
+            <view class='arrow fr'><image src='../../images/center/arrow_r_2.png'></image></view>
+        </view>
+        <view class='tr fw'>
+            <view class='td icon'><image src='../../images/center/center_icon_9.png'></image></view>
+            <view class='td'>供应商入住</view>
+            <view class='arrow fr'><image src='../../images/center/arrow_r_2.png'></image></view>
+        </view>
+    </view>
+    <view class='table margin'>
+        <view class='tr fw'>
+            <view class='td icon'><image src='../../images/center/center_icon_10.png'></image></view>
+            <view class='td'>更换团长</view>
+            <view class='arrow fr'><image src='../../images/center/arrow_r_2.png'></image></view>
+        </view>
+        <view class='tr fw'>
+            <view class='td icon'><image src='../../images/center/center_icon_11.png'></image></view>
+            <view class='td'>联系客服</view>
+            <view class='arrow fr'><image src='../../images/center/arrow_r_2.png'></image></view>
+        </view>
+    </view>
+
+</view>

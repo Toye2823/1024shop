@@ -1,0 +1,91 @@
+<!--弹窗-->
+<view class="ruleZhezhao {{isRuleTrue?'isRuleShow':'isRuleHide'}}">
+	<view class='ruleZhezhaoContent'>
+		<view class='ruleZhezhaoText'>
+			<view class='tit'>订单编号：3642313648</view>
+            <view class='list fw'>
+                <view class='fl part1'><image src='../../images/goodscode/code2.png'></image></view>
+                <view class='fl part2'>
+                    <view>精选农家西葫芦</view>
+                    <view>300g/个</view>
+                    <view>实重：400g</view>
+                </view>
+                <view class='fl part3'>
+                    <image src='../../images/goodscode/code1.png'></image>
+                </view>
+                <view class='fr part4'>
+                    <view>￥22</view>
+                    <view>X1</view>
+                </view>
+            </view>
+            <view class='list fw'>
+                <view class='fl part1'><image src='../../images/goodscode/code2.png'></image></view>
+                <view class='fl part2'>
+                    <view>精选农家西葫芦</view>
+                    <view>300g/个</view>
+                    <view>实重：400g</view>
+                </view>
+                <view class='fl part3'>
+                    <image src='../../images/goodscode/code1.png'></image>
+                </view>
+                <view class='fr part4'>
+                    <view>￥22</view>
+                    <view>X1</view>
+                </view>
+            </view>
+            <view class='list fw'>
+                <view class='fl part1'><image src='../../images/goodscode/code2.png'></image></view>
+                <view class='fl part2'>
+                    <view>精选农家西葫芦</view>
+                    <view>300g/个</view>
+                    <view>实重：400g</view>
+                </view>
+                <view class='fl part3'>
+                    <image src='../../images/goodscode/code1.png'></image>
+                </view>
+                <view class='fr part4'>
+                    <view>￥22</view>
+                    <view>X1</view>
+                </view>
+            </view>
+            
+            <view class='name'>收货人：李先生</view>
+            <view class='tel'>电话：135****5213</view>
+            <view class='info'>
+                <view class='row fw'>
+                    <view class='fl'>实付金额：</view>
+                    <view class='fr'>55元</view>
+                </view>
+                <view class='row fw'>
+                    <view class='fl'>实际重量：</view>
+                    <view class='fr'>7kg</view>
+                </view>
+                <view class='row fw'>
+                    <view class='fl'>应付金额：</view>
+                    <view class='fr'>44元</view>
+                </view>
+                <view class='row fw'>
+                    <view class='fl'><text decode="{{true}}">差&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;价：</text></view>
+                    <view class='fr'>11元</view>
+                </view>
+            </view>
+			<view class='btn'>
+				<navigator url=''>点击领取</navigator>
+			</view>
+		</view>
+		<image class='dialog_bg' src='../../images/goodscode/code_bg.png'></image>
+	</view>
+	<image src='../../images/dialog/close.png' class='ruleHide' bindtap='hideRule'></image>
+</view>
+
+<!--取货码-->
+<view class='code'>
+	<view class='wrap'>
+		<input></input>
+		<input></input>
+		<input></input>
+		<input></input>
+	</view>
+	<view class='btn'>
+	<navigator url=''>确认</navigator></view>
+</view>

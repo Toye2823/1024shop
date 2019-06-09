@@ -1,0 +1,92 @@
+<view class="select">
+
+	<view class='corps'>
+		<view class='title'>您现在的团长</view>
+		<view class='info fw'>
+			<view class='fl'>
+				<image class='tit_img' src='../../images/select/tit_img.png'></image>
+			</view>
+			<view class='fl'>
+				<view class='name'> 
+					<text>九龙仓--李天副</text>
+					<text>133******44</text>
+				</view>
+				<image class='star' src='../../images/select/star.png'></image>
+			</view>
+		</view>
+		<view class='addr fw'>
+			<view class='icon fl'><image src='../../images/select/icon.png'></image></view>
+			<view class='address fl'>取货点：浙江省杭州市富阳区九龙仓14幢1单元西南侧1楼居 家生活馆</view>
+		</view>
+	</view>
+
+	<view class='add'>
+		<view class='up'>
+			<view class='title'>您现在的团长</view>
+			<view class='txt'>为了乐仔能为你提供最优质的购物服务请根据您所在位置选择合适的团长</view>
+			<text>建议就近选择哦</text>
+		</view>
+
+		<view class='addr addr2 fw'>
+			<view class='icon fl'><image src='../../images/select/icon.png'></image></view>
+			<view class='cur fl'>
+				<view>您目前的位置：</view>
+				<view>浙江省杭州市富阳区九龙仓小区</view>
+			</view>
+			<view class='sel fr'><navigator url=''>选择位置</navigator></view>
+		</view>
+
+		<view class='remark fw'>
+			<text class='fl'>备注： </text><input class='fl' placeholder="请输入门牌号，例4栋2单元304室"></input>
+		</view>
+	</view>
+	<view class='corps'>
+		<view class='title'>您现在的团长</view>
+		<view class='info fw'>
+			<view class='fl'>
+				<image class='tit_img' src='../../images/select/tit_img.png'></image>
+			</view>
+			<view class='center fl'>
+				<view class='name'> 
+					<text>九龙仓--李天副</text>
+					<text>133******44</text>
+					<text class='distance'>距您1.2Km</text>
+				</view>
+				<image class='star' src='../../images/select/star.png'></image>
+			</view>
+		</view>
+		<view class='addr fw'>
+			<view class='icon fl'><image src='../../images/select/icon.png'></image></view>
+			<view class='address fl'>取货点：浙江省杭州市富阳区九龙仓14幢1单元西南侧1楼居 家生活馆</view>
+		</view>
+		<view class='this'>
+			<navigator>就选这位</navigator>
+		</view>
+	</view>
+
+	<view class='corps'>
+		<view class='title'>您现在的团长</view>
+		<view class='info fw'>
+			<view class='fl'>
+				<image class='tit_img' src='../../images/select/tit_img.png'></image>
+			</view>
+			<view class='center fl'>
+				<view class='name'> 
+					<text>九龙仓--李天副</text>
+					<text>133******44</text>
+					<text class='distance'>距您1.2Km</text>
+				</view>
+				<image class='star' src='../../images/select/star.png'></image>
+			</view>
+		</view>
+		<view class='addr fw'>
+			<view class='icon fl'><image src='../../images/select/icon.png'></image></view>
+			<view class='address fl'>取货点：浙江省杭州市富阳区九龙仓14幢1单元西南侧1楼居 家生活馆</view>
+		</view>
+		<view class='this'>
+			<navigator>就选这位</navigator>
+		</view>
+	</view>
+ 
+</view>
+ 

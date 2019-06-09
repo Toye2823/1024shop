@@ -1,0 +1,54 @@
+<view class='runwater'>
+	<view class='list'>
+		<view class='up fw'>
+			<view class='fl'>付款</view>
+			<view class='fr'>-10000.00</view>
+		</view>
+		<view class='down fw'>
+			<view class='time fl'>
+				<text>2018-11-19</text>
+				<text>15:54:22</text>
+			</view>
+			<view class='pay fr'>付款成功</view>
+		</view>
+	</view>
+	<view class='list'>
+		<view class='up fw'>
+			<view class='fl'>充值到账户</view>
+			<view class='red fr'>-10000.00</view>
+		</view>
+		<view class='down fw'>
+			<view class='time fl'>
+				<text>2018-11-19</text>
+				<text>15:54:22</text>
+			</view>
+			<view class='recharge fr'>充值成功</view>
+		</view>
+	</view>
+	<view class='list'>
+		<view class='up fw'>
+			<view class='fl'>提现至微信钱包</view>
+			<view class='red fr'>-10000.00</view>
+		</view>
+		<view class='down fw'>
+			<view class='time fl'>
+				<text>2018-11-19</text>
+				<text>15:54:22</text>
+			</view>
+			<view class='deal fr'>处理中</view>
+		</view>
+	</view>
+	<view class='list'>
+		<view class='up fw'>
+			<view class='fl'>代金券充值</view>
+			<view class='fail fr'>+10000.00</view>
+		</view>
+		<view class='down fw'>
+			<view class='time fl'>
+				<text>2018-11-19</text>
+				<text>15:54:22</text>
+			</view>
+			<view class='fail fr'>充值失败</view>
+		</view>
+	</view>
+</view>

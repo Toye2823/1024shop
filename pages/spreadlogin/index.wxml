@@ -1,0 +1,77 @@
+<!--pages/login/login.wxml-->
+<view class='login'>
+    <view class='nav'>小区乐团长登记</view>
+    <view class='list'>
+        <view class='tit'>您的姓名<text class='star'>*</text></view>
+        <view class='red'>请填写您的真实姓名</view>
+        <input placeholder='请输入您的姓名' placeholder-class='clor'></input>
+    </view>
+
+    <view class='list'>
+        <view class='tit'>您的ID</view>
+        <input placeholder='系统自动获取' placeholder-class='clor'></input>
+    </view>
+
+    <view class='list'>
+        <view class='tit'>您的推广手机号<text class='star'>*</text></view>
+        <view class='tel'>
+            <input placeholder='请输入您的手机号' placeholder-class='clor'></input>
+            <button class='daojishi'>56s后再次获取</button>
+            <button class='getyzm'>获取验证码</button>
+        </view>
+        <input placeholder='请输入您收到的验证码' placeholder-class='clor'></input>
+    </view>
+
+    <view class='list'>
+        <view class='tit'>您的紧急联系电话</view>
+        <view class='red'>确保工作人员能够联系到您</view>
+        <input placeholder='请输入您紧急联系电话' placeholder-class='clor'></input>
+    </view>
+
+    <view class='list'>
+        <view class='tit'>报名的微信号</view>
+        <view class='red'>(如申请微信号非您本人微信号，请填写本人微信号)</view>
+        <input placeholder='可自动抓取也可手动填写' placeholder-class='clor'></input>
+    </view>
+
+    <view class='list'>
+        <view class='tit'>您所在的省份城市是<text class='star'>*</text></view>
+        <view class='red'>建议您申请的小区为常住小区，熟悉区域才能更好开展业务</view>
+        <view class='pro'>
+            <input placeholder='请选择所在省份' placeholder-class='clor'></input>
+            <view class='kailong'></view>
+        </view>
+        <view class='city'>
+            <input placeholder='请选择所在城市' placeholder-class='clor'></input>
+            <view class='kailong'></view>
+        </view>
+    </view>
+    <view class='list'>
+        <view class='tit'>您的详细地址<text class='star'>*</text></view>
+        <view class='red'>请输入详细地址，包含道路、门牌号等</view>
+        <view class='red'>例如：**路**号***小区</view>
+        <input placeholder='请填写您所在的区域' placeholder-class='clor'></input>
+    </view>
+
+    <view class='list'>
+        <view class='tit'>您从事的行业是</view>
+        <input placeholder='请填写您从事的行业' placeholder-class='clor'></input>
+    </view>
+
+    <view class='list'>
+        <view class='tit'>简单介绍</view>
+        <view class='red'>您可以对您自身的优势、人脉、行业圈等进行简单介绍，有助于通过审核。</view>
+        <textarea placeholder='请填写您的描述' placeholder-class='clor'></textarea>
+    </view>
+
+    <view class='list'>
+        <view class='tit'>您的推荐人的ID</view>
+        <view class='red'>无推荐人，可以选填</view>
+        <input placeholder='请填写您的推荐人的ID' placeholder-class='clor'></input>
+    </view>
+
+    <view class='foot'>
+        <view><navigator url=''>电话咨询</navigator></view>
+        <view><navigator url=''>提交</navigator></view>
+    </view>
+</view>

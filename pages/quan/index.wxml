@@ -1,0 +1,44 @@
+<!--pages/quan/index.wxml-->
+<view class='quan'>
+    <view class='uselist list fw'>
+        <view class='fl'>
+            <view class='icon'><image src='../../images/quan/quan_3.png'></image></view>
+            <view class='sort'>小区乐精选</view>
+            <view class='date'>2018.02.01~2018.03.30</view>
+            <view class='use'>可用</view>
+        </view>
+        <view class='fr'>
+            <view class='num'>￥<text>24</text></view>
+            <view class='text'>订单满59元可用</view>
+            <view class='text'>(全场商品可用)</view>
+        </view>
+    </view>
+    <view class='nouselist list fw'>
+        <view class='fl'>
+            <view class='icon'><image src='../../images/quan/quan_1.png'></image></view>
+            <view class='sort'>小区乐精选</view>
+            <view class='date'>2018.02.01~2018.03.30</view>
+            <view class='nouse'>不可用</view>
+        </view>
+        <view class='fr'>
+            <view class='num'>￥<text>24</text></view>
+            <view class='text'>订单满59元可用</view>
+            <view class='text'>(全场商品可用)</view>
+        </view>
+    </view>
+    <view class='uselist list fw'>
+        <view class='fl'>
+            <view class='icon'><image src='../../images/quan/quan_1.png'></image></view>
+            <view class='sort'>小区乐精选</view>
+            <view class='date'>2018.02.01~2018.03.30</view>
+            <view class='use'>可用</view>
+        </view>
+        <view class='fr'>
+            <view class='num'>￥<text>24</text></view>
+            <view class='text'>订单满59元可用</view>
+            <view class='text'>(全场商品可用)</view>
+        </view>
+    </view>
+
+</view>
+

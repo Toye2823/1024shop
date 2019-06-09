@@ -1,0 +1,78 @@
+/* pages/relay/index.wxss */
+.relay{
+	width: 100%;
+	height: 1334rpx;
+	position: relative;
+}
+.relay .bg{
+	width: 100%;
+	height: 100%;
+}
+.relay .wrap{
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 40rpx; 
+}
+.relay .wrap .pic image{
+	width: 400rpx;
+	height: 154rpx;
+}
+.relay .wrap .tit{
+	font-size: 22rpx;
+	padding-left: 100rpx;
+}
+.relay .cont{
+	background-color: #fff;
+	border-radius: 20rpx;
+	padding: 20rpx;
+	margin-top: 60rpx;
+}
+.relay .cont .star,
+.relay .cont .name,
+.relay .cont .tit-img{
+	text-align: center;
+}
+.relay .cont .name{
+	font-size: 24rpx;
+	height: 40rpx;
+	line-height: 40rpx;
+}
+.relay .cont .text{
+	font-size: 24rpx;
+	text-indent: 20rpx;
+	text-align: justify;
+}
+.relay .cont .tit-img image{
+	width: 98rpx;
+	height: 98rpx;
+	margin: 0 auto;
+}
+.relay .cont .star image{
+	width: 125rpx;
+	height: 25rpx;
+}
+.relay .cont .fw{
+	width: 100%;
+	margin-top: 40rpx;
+}
+.relay .cont .fl image{
+	width: 420rpx;
+	height: 426rpx;
+}
+.relay .cont .fl{
+	width: 420rpx;
+	position: relative;
+}
+.relay .cont .fl .play{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.relay .cont .fr{
+	width: 205rpx;
+}
+.relay .cont .fr image{
+	width: 205rpx;
+	height: 205rpx;
+}

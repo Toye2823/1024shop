@@ -1,0 +1,129 @@
+.select{
+	padding: 0 20rpx;
+}
+.select .title{
+	text-align: center;
+	font-size: 45rpx;
+	color: #333;
+	line-height: 80rpx;
+	font-weight: bold;
+}
+.corps{
+	margin-bottom: 30rpx;
+}
+.select .info .tit_img{
+	width: 120rpx;
+	height: 120rpx;
+}
+
+.select .info{
+	margin-top: 20rpx;
+}
+.select .info .star{
+	width: 125rpx;
+	height: 25rpx;
+	margin-left: 20rpx;
+}
+.select .info .name{
+	height: 60rpx;
+	line-height: 60rpx;
+}
+.select .info .center{
+	width: 550rpx;
+}
+.select .info .name text{
+	font-size: 26rpx;
+	padding: 0 20rpx;
+}
+.select .info .name text.distance{
+	font-size: 20rpx;
+	color: #b2b2b2;
+	padding-right: 0;
+	float: right;
+	margin-top: 5rpx;
+
+}
+.add{
+	margin-bottom: 30rpx;
+}
+.addr{
+	margin-top: 54rpx;
+}
+.addr .icon image{
+	width: 34rpx;
+	height: 34rpx;
+	margin-top: 4rpx;
+}
+.addr view{
+	font-size: 22rpx;
+	color: #333;
+	font-weight: bold;
+}
+.addr .cur,
+.addr .address{
+	width: 605rpx;
+	margin-left: 30rpx;
+}
+.addr2 .cur,
+.addr2 .address{
+	width: 450rpx;
+}
+.addr2 .sel {
+	width: 136rpx;
+	height: 46rpx;
+	line-height: 42rpx;
+	color: #2cbefb;
+	font-size: 22rpx;
+	border: 1px solid #2cbefb;
+	border-radius: 24rpx;
+	margin-right: 10rpx;
+}
+.addr2 .sel navigator{
+	text-align: center;
+	height: 100%;
+	margin-top: 0;
+}
+.add .up text,
+.add .up .txt{
+	font-size: 26rpx;
+	width: 460rpx;
+	margin: 0 auto;
+	font-weight: bold;
+	text-align: center;
+	line-height: 40rpx;
+}
+.add .up text{
+	display: block;
+	text-align: center;
+	color: #808080;
+	font-size: 22rpx;
+}
+.remark{
+	margin-top: 30rpx;
+	padding-left: 60rpx;
+	font-size: 26rpx;
+	color: #333;
+	font-weight: bold;
+	height: 60rpx;
+	line-height: 60rpx;
+}
+.remark text{
+	display: block;
+}
+.remark input{
+	font-size: 26rpx;
+	height: 100%;
+	padding: 0 10rpx;
+	margin-left: 20rpx;
+}
+
+.this{
+	background-color: #fff357;
+	text-align: center;
+	font-size: 32rpx;
+	font-weight: bold;
+	border-radius: 20rpx;
+	height: 90rpx;
+	line-height: 90rpx;
+	margin-top: 30rpx;
+}

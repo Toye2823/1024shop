@@ -1,0 +1,304 @@
+
+<view class="ruleZhezhao {{isRuleTrue?'isRuleShow':'isRuleHide'}}">
+	<view class='ruleZhezhaoContent'>
+		<view class='ruleZhezhaoText'>
+			<view class='tit'>券后仅需199元</view>
+			<view class='offer'>
+				<image src='../../images/dialog/dialog_2.png'></image>
+				<view class='txt_wrap fw'>
+					<view class='fl'>
+						<view class='left1'><text>￥200</text> 先领券后购物</view>
+						<view class='left2'>海南特产无需挖孔开花特级凤梨</view>
+					</view>
+					<view class='fr'>
+						<navigator url=''>点击领取</navigator>
+					</view>
+				</view>
+			</view>
+			<view class='product'>
+				<image src='../../images/dialog/dialog_3.png'></image>
+			</view>
+			<view class='btn'>
+				<navigator url=''>点击领取</navigator>
+			</view>
+		</view>
+		<image class='dialog_bg' src='../../images/dialog/dialog_1.png'></image>
+	</view>
+	<image src='../../images/dialog/close.png' class='ruleHide' bindtap='hideRule'></image>
+</view>
+  
+
+
+<view class='page'>
+  <view class='position'>
+    <view class='left'>
+      <view class='addr'><image src='../../images/index_1.png'></image></view>
+      <view><text>某某小区</text></view>
+      <view class='arrow'><image src='../../images/index_2.png'></image></view>
+    </view>    
+	<view class='right'>
+      <view class='tit_pic fl'><image src='../../images/index_3.png'></image></view>
+      <view class='info fl'>刚成功抢购到*份六鳌蜜...</view>
+    </view>
+  </view>
+
+  <view class='content'>
+    <view class='hd_nav'>
+      <view class='nav_tit on'>
+        <view class='tit_up'>正在抢购</view>
+        <view class='tit_dw'>每天23点开抢</view>
+      </view>
+      <view class='nav_tit'>
+        <view class='tit_up'>下期预告</view>
+        <view class='tit_dw'>显示开抢</view></view>
+      <view class='nav_tit'>
+        <view class='tit_up'>特色商圈</view>
+        <view class='tit_dw'>异业联盟</view>
+      </view>
+    </view>
+
+    <view class='hd_con'>
+          <view class='nav1'>
+            <view class='on'>今日推荐</view>
+            <view>新鲜蔬菜</view>
+            <view>时令水果</view>
+            <view>杂粮特产</view>
+            <view class='more'><image src='../../images/index_4.png'></image></view>
+          </view>
+          <view class='con1'>
+               <view class='head'>
+                    <view class='ms fl'><image src='../../images/index_5.png'></image></view>
+                <view class='nav2 fl'>
+                    <view class='title on'>
+                        <view>10:00</view>
+                        <view>抢购中</view>
+                    </view>
+                    <view class='title'>
+                        <view>14:00</view>
+                        <view>即将开始</view>
+                    </view>
+                    <view class='title'>
+                        <view>16:00</view>
+                        <view>即将开始</view>
+                    </view>
+                </view>
+               </view>
+                <view class='con1_1'>
+                     <view class='list'>
+                        <image class='ms' src='../../images/index_7.png'></image>
+                        <view class='product'>
+                            <image src='../../images/product.png'></image>
+                            <view class='pro_tit'>六鳌沙地甜蜜薯...</view>
+                            <view class='price'>￥<text>16.9</text></view>
+                            <navigator url='http://www.baidu.com'>立即秒杀</navigator>
+                        </view>
+                     </view>
+
+                     <view class='list'>
+                        <image class='ms' src='../../images/index_7.png'></image>
+                        <view class='product'>
+                            <image src='../../images/product.png'></image>
+                            <view class='pro_tit'>六鳌沙地甜蜜薯...</view>
+                            <view class='price'>￥<text>16.9</text></view>
+                            <navigator url='http://www.baidu.com'>立即秒杀</navigator>
+                        </view>
+                     </view>
+
+                     <view class='list'>
+                        <image class='ms' src='../../images/index_7.png'></image>
+                        <view class='product'>
+                            <image src='../../images/product.png'></image>
+                            <view class='pro_tit'>六鳌沙地甜蜜薯...</view>
+                            <view class='price'>￥<text>16.9</text></view>
+                            <navigator url='http://www.baidu.com'>立即秒杀</navigator>
+                        </view>
+                     </view>
+                </view>
+          </view>
+          <view class='con1'>
+               <view class='head'>
+                    <view class='ms fl'><image src='../../images/index_5.png'></image></view>
+                <view class='nav2 fl'>
+                    <view class='title on'>
+                        <view>10:00</view>
+                        <view>抢购中</view>
+                    </view>
+                    <view class='title'>
+                        <view>14:00</view>
+                        <view>即将开始</view>
+                    </view>
+                    <view class='title'>
+                        <view>16:00</view>
+                        <view>即将开始</view>
+                    </view>
+                </view>
+               </view>
+                <view class='con1_1 group border'>
+					<view class='fl'>
+						<text>2人团</text>
+						<image src='../../images/product2.png'></image>
+					</view>
+					<view class='fr fr_wrap'>
+						<view class='title'>泰国山竹整箱约8斤</view>
+						<view class='description'>泰国进口山竹8斤精装</view>
+						<progress percent="30" show-info activeColor="#f2e75d" backgroundColor="faf5be" font-size="22rpx" border-radius="5rpx"/>
+						<view class='pri_wrap'>
+							<view class='price'>
+								团购价
+								<text class='new_price'>￥16.9</text>
+								<text class='old_price'>￥28</text>
+								<navigator url=''>立即拼团</navigator>
+							</view>
+						</view>
+					</view>
+                </view>
+
+				 <view class='con1_1 group'>
+					<view class='fl'>
+						<text>3人团</text>
+						<image src='../../images/product2.png'></image>
+					</view>
+					<view class='fr fr_wrap'>
+						<view class='title'>泰国山竹整箱约8斤</view>
+						<view class='description'>泰国进口山竹8斤精装</view>
+						<progress percent="30" show-info activeColor="#f2e75d" backgroundColor="faf5be" font-size="22rpx" border-radius="5rpx"/>
+						<view class='pri_wrap'>
+							<view class='price'>
+								团购价
+								<text class='new_price'>￥16.9</text>
+								<text class='old_price'>￥28</text>
+								<navigator url=''>立即拼团</navigator>
+							</view>
+						</view>
+					</view>
+                </view>
+          </view>
+
+		  <view class='con2'>
+		  	   <view class='list frist'>
+			  		<view class='up'><text>1</text>折购</view>
+					<view class='center'>活动倒计时</view>
+					<view class='time'>
+						<text class='hour'>09</text> :
+						<text class='min'>45</text> :
+						<text class='sec'>28</text>
+					</view>
+			   </view>
+		  	  <view class='list'>
+				<image class='ms' src='../../images/index_7.png'></image>
+			  	<image class='product' src='../../images/product.png'></image>
+				<view class='title'>特级小青菜</view>
+				<view class='price'>￥1.00</view>
+				<navigator class='oversell' url=''>立即秒杀</navigator>
+			  </view>
+		  	<view class='list'>
+			    <image class='ms' src='../../images/index_7.png'></image>
+			  	<image class='product' src='../../images/product.png'></image>
+				<view class='title'>特级小青菜</view>
+				<view class='price'>￥1.00</view>
+				<navigator url=''>立即秒杀</navigator>
+			</view>
+		  </view>
+
+		  <view class='con3'>
+		  	<view class='recom'><image src='../../images/today_recom.png'></image></view>
+		  	<view class='list'>
+			  	<view class='fl'>
+				  	<image class='today' src='../../images/today.png'></image>
+				  	<image class='product' src='../../images/product3.png'></image>
+				</view>
+			  	<view class='fr'>
+					<view class='title'>农家新鲜青豌豆约450-50...</view>
+					<view class='bewrite'>清香细嫩，香甜可口</view>
+					<view class='stock fw'>
+						<text>已售6717件</text>
+						<text>库存583件</text>
+					</view>
+					<view class='qxj'>抢先价</view>
+					<view class='price'>
+						<text class='new_price'>￥7.6</text>
+						<text class='old_price'>￥9</text>
+						<navigator url=''>立刻抢购</navigator>
+					</view>
+				</view>
+			</view>
+
+			<view class='list'>
+			  	<view class='fl'>
+				  	<view class='oversell'><image src='../../images/index_8.png'></image></view>
+				  	<image class='today' src='../../images/tomor.png'></image>
+				  	<image class='product' src='../../images/product3.png'></image>
+				</view>
+			  	<view class='fr'>
+					<view class='title'>农家新鲜青豌豆约450-50...</view>
+					<view class='bewrite'>清香细嫩，香甜可口</view>
+					<view class='stock fw'>
+						<text>已售6717件</text>
+						<!-- <text>库存583件</text> -->
+					</view>
+					<view class='qxj'>抢先价</view>
+					<view class='price'>
+						<text class='new_price'>￥7.6</text>
+						<text class='old_price'>￥9</text>
+						<navigator class='over_btn' url=''>立刻抢购</navigator>
+					</view>
+				</view>
+			</view>
+
+			<view class='fresh_vege'>
+		  	  <image src='../../images/fresh.png'></image>
+		  	</view>
+
+			<view class='list'>
+			  	<view class='fl'>
+				  	<image class='today' src='../../images/today.png'></image>
+				  	<image class='product' src='../../images/product3.png'></image>
+				</view>
+			  	<view class='fr'>
+					<view class='title'>农家新鲜青豌豆约450-50...</view>
+					<view class='bewrite'>清香细嫩，香甜可口</view>
+					<view class='stock fw'>
+						<text>已售6717件</text>
+						<text>库存583件</text>
+					</view>
+					<view class='qxj'>抢先价</view>
+					<view class='price'>
+						<text class='new_price'>￥7.6</text>
+						<text class='old_price'>￥9</text>
+						<navigator url=''>立刻抢购</navigator>
+					</view>
+				</view>
+			</view>
+
+			<view class='list'>
+			  	<view class='fl'>
+				  	<image class='today' src='../../images/today.png'></image>
+				  	<image class='product' src='../../images/product3.png'></image>
+				</view>
+			  	<view class='fr'>
+					<view class='title'>农家新鲜青豌豆约450-50...</view>
+					<view class='bewrite'>清香细嫩，香甜可口</view>
+					<view class='stock fw'>
+						<text>已售6717件</text>
+						<text>库存583件</text>
+					</view>
+					<view class='qxj'>抢先价</view>
+					<view class='price'>
+						<text class='new_price'>￥7.6</text>
+						<text class='old_price'>￥9</text>
+						<navigator url=''>立刻抢购</navigator>
+					</view>
+				</view>
+			</view>
+
+		  </view>
+    </view>
+
+  </view>
+
+
+</view>
+
+<view class='dialog'>
+
+</view>

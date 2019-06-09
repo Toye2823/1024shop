@@ -1,0 +1,129 @@
+/**index.wxss**/
+::-webkit-scrollbar{
+	width: 0;
+	height: 0;
+	color: transparent;
+}
+.title {
+    position: relative;
+    padding: 20rpx 0;
+}
+.title .position{
+	padding: 0 20rpx;
+	font-size: 24rpx;
+	font-weight: bold;
+	height: 90rpx;
+	line-height: 90rpx;
+}
+.title_list {
+    display: inline-block;
+    padding: 0 20rpx;
+    height: 40rpx;
+    line-height: 40rpx;
+    font-size: 30rpx;
+	font-weight: bold;
+	color: #333;
+}
+.title button {
+    width: 50px;
+    height: 30px;
+    font-size: 16px;
+    padding: 0;
+    line-height: 30px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom:0;
+    right: 10px;
+    background: none;
+}
+.title button::after {
+    border: none;
+}
+/* .title_list:nth-child(1) {
+    border-right:1px #ccc solid;
+} */
+/*城市列表*/
+.city_list {
+    position: relative;
+}
+.city_list view:first-child .hot{
+	display: none;
+}
+.city_list view:nth-child(2) text{
+	color: #b3b3b3;
+	background: #f2f2f2;
+	border-radius: 30rpx;
+}
+.city_list view:nth-child(2) text:first-child{
+	background: none;
+	color: #333;
+}
+/*城市选择头部*/
+.list_tit {
+    line-height: 40rpx;
+    height: 40rpx;
+    padding-left: 20rpx;
+    font-size: 24rpx;
+    color: #333;
+	font-weight: bold;
+	
+}
+.list_tit text{
+	font-size: 20rpx;
+	color: #b2b2b2;
+	font-weight: bold;
+}
+.city_wrap{
+	overflow: hidden;
+	padding: 0 20rpx;
+}
+.list_con {
+	float: left;
+    height: 56rpx;
+    line-height: 56rpx;
+    font-size: 30rpx;
+	width: 20%;
+	margin: 10rpx 4% 10rpx 0;
+	text-align: center;
+	font-weight: bold;
+}
+.list_con::before {
+    content: " ";
+    height: 1px;
+    /* border-top: 1px #f5f5f5 solid; */
+    position: absolute;
+    width: 100%;
+}
+.list_con::before:nth-child(1) {
+    border: none;
+}
+/*城市选择 右边*/
+.scroll_list {
+    background: rgba(0,0,0,0);
+    position: absolute;
+    height: calc(100% - 100px);
+    width: 25rpx;
+    top: 40rpx;
+    right: 10rpx;
+}
+.scroll_list_chi {
+    /*border: 1px blue solid;*/
+    text-align: center;
+    font-size: 12px;
+}
+/*显示框*/
+
+.showwords {
+    width: 80px;
+    height: 80px;
+    background: rgba(0,0,0,.3);
+    border-radius:50%;
+    line-height: 80px;
+    text-align: center;
+    font-size:10vw;
+    margin: auto;
+    position: absolute;
+    top: 0;left: 0;bottom: 0;right: 0;
+    z-index: 999;   
+}

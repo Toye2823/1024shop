@@ -1,0 +1,149 @@
+<view class='gray_bg'>
+    <view class='seckill'>
+        <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+                <block wx:for="{{imgUrls}}">
+                    <swiper-item>
+                    <image src="{{item}}" class="slide-image"/>
+                    </swiper-item>
+                </block>
+        </swiper>
+        <view class='pic_num'>1/1</view>
+        <view class='ms'>
+            <image src='../../images/index_7.png'></image>
+        </view>
+        <view class='info'>
+        <view class='tit_pic fl'><image src='../../images/index_3.png'></image></view>
+        <view class='text fl'>刚刚分享了改商品</view>
+        </view>
+        <view class='sell_num'>已售141件</view>
+        <view class='share'>
+            <image src='../../images/share.png'></image>
+        </view>
+    </view>
+
+    <view class='limit_time'>
+        <view class='bg'><image src='../../images/detail_bg.png'></image></view>
+        <view class='wrap'>
+            <view class='left'><image src='../../images/limit_time.png'></image></view>
+            <view class='right'>
+                <view>秒杀结束后恢复原价</view>
+                <view>距结束 <text>00:03:45 :54</text></view>
+            </view>
+        </view>
+    </view>
+
+    <view class='title_wrap'>
+        <view class='tit_up fw'>
+            <view class='up_left fl'>
+                <view class='title'>牛心包尖包心菜一颗约2Kg</view>
+                <view class='decri'>绿色健康，口感清脆</view>
+            </view>
+            <view class='up_right fr'>
+                <view class='old_price'>￥169</view>
+                <view class='price_wrap fw'>
+                    <view class='new_price fl'>￥<text>19.9</text></view>
+                    <view class='seckill_price fr'>秒杀价</view>
+                </view>
+            </view>
+        </view>
+        <view class='tit_down'>
+            <view class='down_title'>他们都在买，剩余127件</view>
+            <view class='list'>
+                <image src='../../images/index_3.png'></image>
+                <image src='../../images/index_3.png'></image>
+                <image src='../../images/index_3.png'></image>
+            </view>
+            <navigator>邀请好友一起抢</navigator>
+        </view>
+    </view>
+
+    <view class='discount'>
+        <view class='dis_title'>促销</view>
+        <view class='deed'><text>返券</text>满59.00元，返10元全场通用优惠券</view>
+        <navigator url=''>
+            <view></view>
+            <view></view>
+            <view></view>
+        </navigator>
+    </view>
+
+    <view class='detail'>
+        <view class='nav fw'>
+            <view class='on'>详情</view>
+            <view>团长说</view>
+        </view>
+        <view class='cont'>
+            <view class="table">
+                <view class="tr">
+                    <view class="td td1">商品属性</view>
+                    <view class="td td2">11111</view>
+                </view>
+                <view class="tr">
+                    <view class="td td1">产地</view>
+                    <view class="td td2">本地</view>
+                </view>
+                <view class="tr">
+                    <view class="td td1">保质期</view>
+                    <view class="td td2">15</view>
+                </view>
+                <view class="tr">
+                    <view class="td td1">净含量</view>
+                    <view class="td td2">约2kg</view>
+                </view>
+                <view class="tr">
+                    <view class="td td1">储存方法</view>
+                    <view class="td td2">常温18℃</view>
+                </view>
+                <view class="tr">
+                    <view class="td td1">品牌</view>
+                    <view class="td td2">小区乐</view>
+                </view>
+                <view class="tr">
+                    <view class="td td1">适用人群</view>
+                    <view class="td td2">老少皆宜</view>
+                </view>
+                <view class="tr">
+                    <view class="td td1">温馨提示</view>
+                    <view class="td td2">收到货后，请尽快食用，保证口感</view>
+                </view>
+                <view class="tr">
+                    <view class="td td1">食用方法</view>
+                    <view class="td td2">清炒煮菜皆可</view>
+                </view>
+            </view>
+            <button class='off'>收起 <image src='../../images/arrow.png'></image></button>
+        </view>
+    </view>
+
+    <view class='detail_pic'>
+        <image class='pic1' src='../../images/detail_pic_1.png'></image>
+        <image class='pic2' src='../../images/detail_pic_2.png'></image>
+        <image class='pic3' src='../../images/detail_pic_3.png'></image>
+    </view>
+
+    <view class='footer'>
+        <view class='list'>
+            <navigator url=''>
+                <view><image src='../../images/index2.png'></image></view>
+                <view>首页</view>
+            </navigator>
+        </view>
+        <view class='list'>
+            <navigator url=''>
+                <view><image src='../../images/shop2.png'></image></view>
+                <view>购物车</view>
+            </navigator>
+        </view>
+        <view class='list'>
+            <navigator url=''>
+                <view><image src='../../images/kefu.png'></image></view>
+                <view>联系客服</view>
+            </navigator>
+        </view>
+        <view class='fr'>
+            <navigator url=''>立即购买</navigator>
+        </view>      
+    </view>
+
+
+</view>

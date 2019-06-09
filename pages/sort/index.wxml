@@ -1,0 +1,46 @@
+<!--pages/sort/index.wxml-->
+<view class='sort'>
+    <view class='tit'>常用</view>
+    <view class='wrap use'>
+        <view class='list'>
+            <view>今日推荐</view>
+        </view>
+        <view class='list'>
+            <view>新鲜蔬菜</view>
+            <text class='close'></text>
+        </view>
+        <view class='list'>
+            <view>时令水果</view>
+            <text class='close'></text>
+        </view>
+        <view class='list'>
+            <view>水产冻品</view>
+            <text class='close'></text>
+        </view>
+        <view class='list'>
+            <view>蛋禽肉类</view>
+            <text class='close'></text>
+        </view>
+        <view class='list'>
+            <view>杂粮特产</view>
+            <text class='close'></text>
+        </view>
+        <view class='list'>
+            <view>酒水饮料</view>
+            <text class='close'></text>
+        </view>
+    </view>
+
+    <view class='tit'>全部分类</view>
+    <view class='wrap all'>
+        <view class='list'>生冷海鲜</view>
+        <view class='list'>地域特产</view>
+        <view class='list'>农家特色</view>
+        <view class='list'>进口产品</view>
+        <view class='list'>素食主义</view>
+        <view class='list'>肉食主义</view>
+        <view class='list'>跨季商品</view>
+    </view>
+
+    <view class='note'>注：今日推荐为必选项，分类最低三个，最多八个。</view>
+</view>

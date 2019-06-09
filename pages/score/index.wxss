@@ -1,0 +1,198 @@
+/* pages/score/index.wxss */
+/* 日期 */
+
+.score .addr{
+    background-color: #fff357;
+    height: 60rpx;
+    line-height: 60rpx;
+    padding: 0 20rpx;
+}
+.addr .fl{
+    font-size: 26rpx;
+}
+.addr .fr{
+    font-size: 24rpx;
+}
+.addr .fr navigator{
+    background-color: #fffde0;
+    padding: 0 30rpx;
+    height: 40rpx;
+    line-height: 40rpx;
+    margin-top: 10rpx;
+    border-radius: 20rpx;
+}
+.placeholderStyle{
+    color: #b2b2b2;
+    font-size: 32rpx;
+    
+}
+.time-date{
+    width: 300rpx;
+    margin: 24rpx auto 40rpx;
+    overflow: hidden;
+    border: 1px solid #b2b2b2;
+    padding: 10rpx 0;
+    border-radius: 10rpx;
+    background-color: #fff;
+}
+.time-date image{
+    width: 36rpx;
+    height: 36rpx;
+    float: left;
+    margin: 8rpx 0 0 20rpx;
+}
+.time-date input{
+    float: left;
+    height: 40rpx;
+    line-height: 40rpx;
+    width: 220rpx;
+    text-align: center;
+    border-right: 1px solid #b2b2b2;
+}
+.score .point{
+    color: #b2b2b2;
+    font-size: 26rpx;
+    height: 64rpx;
+    line-height: 64rpx;
+    background-color: #fafafa;
+    padding: 0 20rpx;
+}
+
+
+.score .nav_tit{
+    width: 690rpx;
+    margin: 0 auto;
+    padding: 5rpx 0;
+    background-color: #fff357;
+    border-radius: 14rpx;
+}
+.score .nav_tit view{
+    float: left;
+    width: 225rpx;
+    background-color: #fff;
+    text-align: center;
+    margin-left: 5rpx;
+    height: 68rpx;
+    line-height: 68rpx;
+}
+.time_wrap{
+    background-color: #fff;
+    padding: 20rpx;
+    margin-bottom: 30rpx;
+}
+.score .nav_tit view.on{
+    background-color: #fff357;
+}
+.score .nav_tit view:first-child{
+    border-radius: 14rpx 0 0 14rpx;
+}
+.score .nav_tit view:last-child{
+    border-radius: 0 14rpx 14rpx 0;
+}
+.score .nav_con .fl{
+    width: 50%;
+    text-align: center;
+    padding: 60rpx 0;
+}
+.score .nav_con .fl .up{
+    color: #808080;
+    font-size: 32rpx;
+    line-height: 40rpx;
+}
+.score .nav_con .fl .cen{
+    font-size: 26rpx;
+    color: #ff4b4b;
+    line-height: 80rpx;
+}
+.score .nav_con .fl .cen text{
+    font-size: 58rpx;
+}
+.score .nav_con .fl .dow{
+    color: #b2b2b2;
+    font-size: 24rpx;
+    line-height: 40rpx;
+}
+
+.chart{
+    position: relative;
+    background-color: #fff;
+    padding: 20rpx;
+}
+.chart_tit{
+    font-size: 32rpx;
+    color: #333;
+    line-height: 60rpx;
+    padding-left: 40rpx;
+    font-weight: bold;
+}
+.chart_con image{
+    width: 630rpx;
+    height: 276rpx;
+    margin-left: 68rpx;
+    padding-top: 150rpx;
+    padding-bottom: 60rpx;
+
+}
+.chart_con .row {
+    position: absolute;
+    top: 100rpx;
+    left: 0;
+}
+.chart_con .row .row_list{
+    margin: 42rpx auto; 
+}
+.chart_con .row .fl{
+    width: 110rpx;
+    color: #b2b2b2;
+    font-size: 26rpx;
+    height: 40rpx;
+    line-height: 40rpx;
+    text-align: center;
+}
+.chart_con .row .r_line{
+    width: 600rpx;
+    height: 1px;
+    border-bottom: dashed #b2b2b2 1px;
+    padding-top: 19rpx;
+}
+
+.chart_con .cos{
+    position: absolute;
+    bottom: 20rpx;
+    overflow: hidden;
+    width: 630rpx;
+    margin-left: 68rpx;
+}
+.chart_con .cos .cos_list{
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+.chart_con .cos .cos_list view{
+    color: #b2b2b2;
+    font-size: 26rpx;
+    line-height: 30rpx;
+}
+.chart_con .cos .cos_list view.date{
+    font-size: 20rpx;
+}
+.chart_con .line_wrap{
+    position: absolute;
+    height: 320rpx;
+    width: 100rpx;
+    bottom: 90rpx;
+    left: 480rpx;
+}
+.chart_con .line_wrap view.txt{
+    text-align: center;
+    height: 30rpx;
+    line-height: 30rpx;
+    font-size: 26rpx;
+    color: #333;
+}
+.chart_con .cos_line{
+    height: 240rpx;
+    width: 1px;
+    border-right: dashed #b2b2b2 1px;
+    /* padding-left: 460rpx; */
+}

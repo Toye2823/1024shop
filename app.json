@@ -1,0 +1,56 @@
+{
+	"pages": [
+		"pages/score/index",
+		"pages/spreadlogin/index",
+		"pages/corpsselect/index",
+		"pages/pay/index",
+		"pages/relay/index",
+		"pages/index/index",
+		"pages/center/index",
+		"pages/seckill/index",
+		"pages/logs/logs",
+		"pages/account/index",
+		"pages/runwater/index",
+		"pages/city/index",
+		"pages/address/index",
+		"pages/select/index",
+		"pages/next/index",
+		"pages/quan/index",
+		"pages/sendlogin/index",
+		"pages/sort/index",
+		"pages/goodscode/index"
+	],
+	"window": {
+		"backgroundTextStyle": "light",
+		"navigationBarBackgroundColor": "#fff",
+		"navigationBarTitleText": "小区乐精选",
+		"navigationBarTextStyle": "black"
+	},
+	"sitemapLocation": "sitemap.json",
+	"tabBar": {
+		"color": "#b3b3b3",
+		"backgroundColor": "#ffffff",
+		"selectedColor": "#333",
+		"borderStyle": "black",
+		"list": [
+			{
+				"selectedIconPath": "images/index.png",
+				"iconPath": "images/index.png",
+				"pagePath": "pages/index/index",
+				"text": "首页"
+			},
+			{
+				"selectedIconPath": "images/shop.png",
+				"iconPath": "images/shop.png",
+				"pagePath": "pages/logs/logs",
+				"text": "一元投"
+			},
+			{
+				"selectedIconPath": "images/my.png",
+				"iconPath": "images/my.png",
+				"pagePath": "pages/logs/logs",
+				"text": "我的"
+			}
+		]
+	}
+}

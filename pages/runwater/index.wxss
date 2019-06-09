@@ -1,0 +1,35 @@
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.fw{
+	overflow: hidden;
+}
+.runwater{
+	padding: 0 30rpx;
+}
+.runwater .list{
+	margin-top: 20rpx;
+}
+.runwater .list .up view{
+	font-size: 28rpxx;
+	color: #333;
+	height: 70rpx;
+	line-height: 70rpx;
+}
+.runwater .list .down view{
+	color: #b2b2b2;
+	font-size: 22rpx;
+}
+.runwater .list .down .time text:last-child{
+	margin-left: 20rpx;
+}
+.red{
+	color: #f23a3a!important;
+}
+.runwater .list .up .fail{
+	text-decoration: line-through;
+	color: #b2b2b2;
+}
